@@ -615,6 +615,60 @@ footer small{
     margin-bottom: 15px;
 }
 
+/* work Section */
+.work-experience .container{
+    padding-bottom: 40px;
+}
+
+.work-experience .project-item{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    display: flex;
+}
+
+.work-experience .project-item-inner{
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #d4d4e3;
+    width: 100%;
+}
+
+.work-experience .project-item-inner .project-img{
+    width: 100%;
+    display: block;
+}
+
+.work-experience .project-item-inner .project-img img{
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.work-experience .project-item-inner:hover .project-img img{
+    transform: scale(1.1);
+}
+
+.work-experience .project-item-inner .project-info{
+    padding: 30px 15px;
+    background-color: #fdf9ff;
+  
+}
+
+.work-experience .project-item-inner .project-info .project-title{
+    font-size: 18px;
+    font-weight: 700;
+    color: #302e4d;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.work-experience .project-item-inner .project-info .project-description{
+    font-size: 16px;
+    line-height: 25px;
+    color: #504e70;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
 /* Dark Mode */
 body.dark .section{
     background-color: #151515;
