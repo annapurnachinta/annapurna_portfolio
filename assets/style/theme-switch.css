@@ -48,7 +48,7 @@
     margin-right: 2px;
 }
 
-.theme-switch .toggle-theme-switcher{
+.theme-switch .toggler-theme-switcher{
     position: absolute;
     height: 45px;
     width: 45px;
@@ -62,7 +62,7 @@
     border-radius: 5px 0 0 5px;
 }
 
-.theme-switch .toggle-theme-switcher .fa{
+.theme-switch .toggler-theme-switcher .fa{
     font-size: 20px;
     line-height: 43px;
 }

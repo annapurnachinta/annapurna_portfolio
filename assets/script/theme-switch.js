@@ -12,7 +12,6 @@ function setActiveStyle(color) {
     }
 }
 
-
 //Light / Dark Mode switch
 const modeSwitch = document.querySelectorAll(".mode-switch")
 totalmodeSwitch = modeSwitch.length;
@@ -26,6 +25,7 @@ for (let i = 0; i < totalmodeSwitch; i++) {
         }
     })
 }
+
 document.querySelector(".toggle-theme-switcher").addEventListener("click", () => {
     document.querySelector(".theme-switch").classList.toggle("open");
 })
