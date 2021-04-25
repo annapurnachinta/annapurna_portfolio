@@ -26,6 +26,6 @@ for (let i = 0; i < totalmodeSwitch; i++) {
     })
 }
 
-document.querySelector(".toggle-theme-switcher").addEventListener("click", () => {
+document.querySelector(".toggler-theme-switcher").addEventListener("click", () => {
     document.querySelector(".theme-switch").classList.toggle("open");
 })
