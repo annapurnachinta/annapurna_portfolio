@@ -150,7 +150,7 @@ body{
     height: 100%;
     left: 0;
     top: 0;
-    z-index:11px;
+    z-index:11;
     border-right: 1px solid #e8dfec;
     transition: all 0.3s ease;
     padding: 30px;
@@ -824,5 +824,4 @@ body.dark .aside .nav li a{
       margin-left: 80px;
       margin-top: 0px;
     }
-  }
-  
+  } 
