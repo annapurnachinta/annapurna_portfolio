@@ -215,7 +215,6 @@ body{
     align-items: center;
     display: none;
     justify-content: center;
-    display: -ms-flexbox;
     transition: all 0.3s ease;
 }
 
@@ -293,7 +292,6 @@ footer small{
 /* home */
 .home{
     display: flex;
-    display: -ms-flexbox;
     min-height: 100vh;
 }
 
@@ -725,7 +723,6 @@ body.dark .aside .nav li a{
 @media (max-width:1199px){
     .aside .nav-toggler{
       display: flex;
-      display: -ms-flexbox;
       left: 30px;
     }
     .aside .nav-toggler.open{
@@ -753,63 +750,54 @@ body.dark .aside .nav li a{
       display: block;
       margin-left: 0;
     }
-    .project .project-item{
-      -ms-flex: 0 0 50%;
-      flex: 0 0 50%;
-      max-width: 50%;
-    }
-  }
-  @media (max-width:815px){
+}
+
+@media (max-width:815px){
     .about .about-content .skills{
       flex: 0 0 50%;
-      -ms-flex: 0 0 50%;
       max-width: 50%;
       margin-top: 40px;
     }
-  }
-  @media (max-width:740px){
+}
+
+@media (max-width:740px){
     .about .about-content .education{
       flex: 0 0 100%;
-      -ms-flex: 0 0 100%;
       max-width: 100%;
       margin-top: 30px;
     }
     .about .about-content .experience{
       flex: 0 0 100%;
-      -ms-flex: 0 0 100%;
       max-width: 100%;
       margin-top: 30px;
     }
-  }
-  @media (max-width:650px){
+}
+
+@media (max-width:650px){
     .project .project-item{
-      -ms-flex: 0 0 100%;
       flex: 0 0 100%;
       max-width: 100%;
       padding-bottom: 30px;
     }
-  }
-  @media (max-width:550px){
+}
+
+@media (max-width:550px){
     .about .about-content .personal-info .info-item{
       flex: 0 0 100%;
-      -ms-flex: 0 0 100%;
       max-width: 100%;
     }
     .about .about-content .skills{
       flex: 0 0 100%;
-      -ms-flex: 0 0 100%;
       max-width: 100%;
       margin-top: 40px;
     }
     .contact .contact-info-item{
-      -ms-flex: 0 0 100%;
       flex: 0 0 100%;
       max-width: 100%;
       text-align: center;
       margin-bottom: 40px;
     }
     .contact .contact-form .col-6{
-      -ms-flex: 0 0 100%;
       flex: 0 0 100%;
       max-width: 100%;
     }
@@ -824,4 +812,4 @@ body.dark .aside .nav li a{
       margin-left: 80px;
       margin-top: 0px;
     }
-  } 
+} 
