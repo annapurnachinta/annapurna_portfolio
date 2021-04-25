@@ -144,7 +144,7 @@ body{
 
 /* aside */
 .aside{
-    width: 300px;
+    width: 270px;
     background-color: #fdf9ff;
     position: fixed;
     height: 100%;
@@ -732,7 +732,7 @@ body.dark .aside .nav li a{
       left: 200px;
     }
     .aside{
-      left: -300px;
+      left: -270px;
     }
     .aside.open{
       left: 0px;
@@ -741,10 +741,10 @@ body.dark .aside .nav li a{
       left: 0;
     }
     .section.open{
-      left: 300px;
+      left: 270px;
     }
     .aside{
-      left: -300px;
+      left: -270px;
     }
     .main-content{
       padding-left: 0;
