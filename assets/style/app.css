@@ -798,6 +798,11 @@ body.dark .aside .nav li a{
       display: block;
       margin-left: 0;
     }
+
+    .work-experience .work-content .personal-info .info-item p span{
+        display: block;
+        margin-left: 0;
+      }
 }
 
 @media (max-width:815px){
