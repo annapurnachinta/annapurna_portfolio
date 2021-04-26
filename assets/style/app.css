@@ -677,6 +677,19 @@ footer small{
     margin: 0;
 }
 
+.work-experience .work-content ul {
+    list-style: none;
+  }
+  
+.work-experience .work-content  ul li::before {
+    content: "\2022";
+    color: red;
+    font-weight: 800;
+    display: inline-block;
+    width: 0.5em;
+    margin-left: -1em;
+  }
+
 /* contact section */
 .contact .contact-info-item{
     flex: 0 0 50%;
@@ -727,6 +740,7 @@ body.dark .aside{
     background-color: #222222;
 }
 
+body.dark .header small,
 body.dark .contact .contact-form .form-item .form-control,
 body.dark .contact .contact-info-item p,
 body.dark .project .project-item-inner .project-info .project-title,
@@ -741,7 +755,8 @@ body.dark .work-experience .work-content .personal-info .info-item p,
 body.dark .section-title h2,
 body.dark .home .intro h1,
 body.dark .aside .logo a,
-body.dark .aside .nav li a{
+body.dark .aside .nav li a,
+body.dark .work-experience .work-content ul li a{
     color: white;
 }
 
@@ -824,6 +839,16 @@ body.dark .aside .nav li a{
       max-width: 100%;
       margin-top: 30px;
     }
+    .work-experience .work-content .education{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 30px;
+      }
+      .work-experience .work-content .experience{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 30px;
+      }
 }
 
 @media (max-width:650px){

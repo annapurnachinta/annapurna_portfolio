@@ -41,3 +41,8 @@ body.dark .aside .nav li a.active,
 .work-experience .about-content .about-text h3 span{
     color: #ffcc00;
 }
+
+.work-experience .work-content  ul li::before {
+    content: "\2022";
+    color: #ffcc00;
+}
